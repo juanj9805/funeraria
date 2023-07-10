@@ -151,3 +151,447 @@ h3 {
   padding-top: 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 390px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+
+  header {
+    width: 100%;
+    height: 12vh;
+    padding: 0 10px;
+    display: flex;
+  }
+
+  img{
+    width: 100%;
+    height: 12vh;
+    align-items: center;
+  }
+
+  nav{
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+  }
+
+  a {
+    font-size: 20px;
+    flex-direction: column;
+    color: #595e09;
+  }
+
+  h1{
+    text-align: start;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .acerca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: URL(../img/fondo_acerca.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 130px;
+    color: white;
+    font-size: 40px;
+    left: calc(50% - 1338px / 2 - 1px);
+    background-size: 100% 100%;
+  }
+  .section1 {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .colum2 {
+    width: 100%;
+  }
+  
+  .colum1 {
+    width: 100%;
+    height: 50vh;
+    display: inline-block;
+  }
+  .img1{
+    width: 100%;
+    height: 50vh;
+  }
+  .subtitulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+    color: #D3AA13;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .misionVision{
+    display: contents;
+    border: #ffff thin ridge;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 24px;
+    font-weight: 400;
+    padding: 30px;
+    color: #525252;
+    text-align: center;
+  }
+
+  .footer {
+    width: 100%;
+    height: 22vh;
+    padding: 16px;
+    display: flex;
+  }
+
+  .logoFooter {
+    width: 60%;
+    height: 10vh;
+  }
+
+  .footer1 {
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .sloganFooter {
+    font-size: 8px;
+    text-align: center;
+    align-items: center;
+    color: #d3aa13;
+  }
+
+  .logoSlogan {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .info {
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer2 {
+    display: flex;
+    width: 50%;
+    height: 22vh;
+  }
+
+  h3 {
+    font-size: 30px;
+    justify-content: flex-start;
+  }
+
+  .redes{
+    width: 100%;
+    height: auto;
+    display: block ;
+}
+
+  .icon {
+    color: white;
+    width: 50px;
+    height: 25px;
+    padding: 0px;
+    margin: 10px;
+  }
+
+  .copy {
+    font-size: 8px;
+ }
+
+  .img3 {
+    width: 100%;
+    height: 2vh;
+  }
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    padding: 0 24px;
+    gap: 24px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #d3aa13;
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 30px;
+    color: #939B0E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  } 
+  .convenios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: URL(../img/Fondo_Convenios.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 130px;
+    color: white;
+    font-size: 40px;
+    left: calc(50% - 1338px / 2 - 1px);
+    background-size: 100% 100%;
+  }
+  .text {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 4px;
+    color: #595E09;
+    text-align: center;
+  }
+  .amigos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    width: 100%;
+    height: 200px;
+    background-color: #595e09;
+    padding: 24px;
+    display: flex;
+    color: #ffff;
+  }
+  
+  .img3 {
+    width: 100%;
+    height: 20px;
+  }
+  .logoFooter {
+    width: 180px;
+    height: 150px;
+  }
+  
+  .footer1 {
+    width: 50%;
+    display: flex;
+    border-right: solid 2px;
+    justify-content: center;
+  }
+  
+  .sloganFooter {
+    padding-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .logoSlogan {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 4px;
+    text-align: left;
+  }
+  .footer2 {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  h4 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .redes{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  .icon{
+      color: #ffff;
+      padding: 10px 40px;
+  }
+  .copy{
+      width: 100%;
+      color: #ffff;
+      font-size: 14px;
+      font-weight: 400;
+      padding-top: 20px;
+      text-align: center;
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 390px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Lato", sans-serif;
+    }
+  
+    header {
+      width: 100%;
+      height: 12vh;
+      padding: 0 10px;
+      display: flex;
+    }
+  
+    img{
+      width: 100%;
+      height: 12vh;
+      align-items: center;
+    }
+  
+    nav{
+      flex-direction: column;
+      align-items: start;
+      text-align: center;
+    }
+  
+    a {
+      font-size: 20px;
+      flex-direction: column;
+      color: #595e09;
+    }
+
+    .amigos{
+      width: 100%;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .text {
+      font-size: 30px;
+      font-weight: 400;
+      padding: 4px;
+      color: #595E09;
+      text-align: center;
+    }
+
+    .footer {
+      width: 100%;
+      height: 22vh;
+      padding: 16px;
+      display: flex;
+    }
+  
+    .logoFooter {
+      width: 60%;
+      height: 10vh;
+    }
+  
+    .footer1 {
+      flex-direction: column;
+      width: 50%;
+      height: auto;
+      align-items: flex-start;
+    }
+  
+    .sloganFooter {
+      font-size: 8px;
+      text-align: center;
+      align-items: center;
+      color: #d3aa13;
+    }
+  
+    .logoSlogan {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .info {
+      width: 100%;
+      font-size: 8px;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .footer2 {
+      display: flex;
+      width: 50%;
+      height: 22vh;
+    }
+  
+    h3 {
+      font-size: 30px;
+      justify-content: flex-start;
+    }
+  
+    .redes{
+      width: 100%;
+      height: auto;
+      display: block ;
+  }
+  
+    .icon {
+      color: white;
+      width: 50px;
+      height: 25px;
+      padding: 0px;
+      margin: 10px;
+    }
+  
+    .copy {
+      font-size: 8px;
+   }
+  
+    .img3 {
+      width: 100%;
+      height: 2vh;
+    }
+  
+  }
